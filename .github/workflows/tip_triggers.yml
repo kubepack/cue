@@ -5,6 +5,10 @@ name: Push to tip triggers
   push:
     branches:
       - master
+  workflow_dispatch:
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
 jobs:
   push:
     runs-on: ubuntu-18.04

@@ -8,6 +8,10 @@ name: Test
     tags-ignore:
       - v*
   pull_request: {}
+  workflow_dispatch:
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
 jobs:
   start:
     runs-on: ubuntu-18.04

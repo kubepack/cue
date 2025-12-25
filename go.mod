@@ -1,11 +1,11 @@
 module cuelang.org/go
 
-go 1.17
+go 1.23.0
 
 require (
 	github.com/cockroachdb/apd/v2 v2.0.1
 	github.com/emicklei/proto v1.6.15
-	github.com/google/go-cmp v0.4.0
+	github.com/google/go-cmp v0.6.0
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/google/uuid v1.2.0
 	github.com/kr/pretty v0.1.0
@@ -17,9 +17,9 @@ require (
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.2.2
 	golang.org/x/exp v0.0.0-20210126221216-84987778548c
-	golang.org/x/net v0.0.0-20200226121028-0de0cce0169b
-	golang.org/x/text v0.3.2
-	golang.org/x/tools v0.0.0-20200612220849-54c614fe050c
+	golang.org/x/net v0.38.0
+	golang.org/x/text v0.23.0
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d
 	golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
@@ -34,6 +34,7 @@ require (
 	github.com/pkg/diff v0.0.0-20210226163009-20ebb0f2a09e // indirect
 	github.com/pkg/errors v0.8.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	golang.org/x/mod v0.3.1-0.20200828183125-ce943fd02449 // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/sync v0.12.0 // indirect
 	gopkg.in/errgo.v2 v2.1.0 // indirect
 )

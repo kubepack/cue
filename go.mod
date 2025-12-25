@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/cockroachdb/apd/v2 v2.0.1
 	github.com/emicklei/proto v1.6.15
-	github.com/google/go-cmp v0.4.0
+	github.com/google/go-cmp v0.6.0
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/google/uuid v1.2.0
 	github.com/kr/pretty v0.1.0
@@ -27,7 +27,7 @@ require (
 require (
 	github.com/cockroachdb/apd v1.1.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
+	github.com/golang/glog v1.2.4 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/kr/text v0.1.0 // indirect
 	github.com/lib/pq v1.0.0 // indirect
